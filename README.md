@@ -63,15 +63,26 @@ The application will start, and you can access the REST APIs at http://localhost
 ## API Documentation
 
 Artist APIs
+
 GET /api/artists: Retrieve all artists.
+
 GET /api/artists/{id}: Retrieve a artist by ID.
+
 POST /api/artists: Create a new artist.
+
 PUT /api/artist/{id}: Update a artist by ID.
+
 DELETE /api/artists/{id}: Delete a artist by ID.
 
+
 Song APIs
+
 GET /api/songs: Retrieve all songs.
+
 GET /api/songs/{id}: Retrieve an song by ID.
+
 POST /api/songs: Create a new song.
+
 PUT /api/songs/{id}: Update an song by ID.
+
 DELETE /api/songs/{id}: Delete an song by ID.
